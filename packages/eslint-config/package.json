@@ -1,6 +1,7 @@
 {
-  "name": "@vsgt/eslint",
+  "name": "@vsgt/eslint-config",
   "version": "0.0.0",
+  "private": false,
   "description": "Eslint configuration presets",
   "keywords": [
     "eslint",
@@ -25,7 +26,7 @@
     "url": "https://github.com/NXTaar/vsgt-toolbox/issues"
   },
   "peerDependencies": {
-    "eslint": "7.26.0"
+    "eslint": "^7.26.0"
   },
   "dependencies": {
     "eslint-config-prettier": "8.3.0",

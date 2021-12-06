@@ -1,14 +1,20 @@
 {
-  "name": "vsgt-toolbox",
-  "version": "1.0.0",
+  "name": "@vsgt/root",
+  "version": "0.0.0",
   "description": "Set of tools for frontend development to share across different projects",
   "main": "index.js",
   "author": "Valeriy Sagatovskiy <code@vsgt.dev>",
   "license": "GPL-3.0-or-later",
-  "repository": "https://github.com/NXTaar/vsgt-toolbox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NXTaar/vsgt-toolbox.git"
+  },
   "private": false,
   "dependencies": {
     "lerna": "4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "eslint": "7.26.0",
@@ -18,5 +24,9 @@
     "eslint-plugin-react": "7.23.2",
     "eslint-plugin-react-hooks": "4.2.0",
     "prettier": "2.5.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/NXTaar/vsgt-toolbox/issues"
+  },
+  "homepage": "https://github.com/NXTaar/vsgt-toolbox#readme"
 }
