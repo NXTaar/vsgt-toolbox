@@ -10,19 +10,18 @@
     "url": "git+https://github.com/NXTaar/vsgt-toolbox.git"
   },
   "private": false,
-  "dependencies": {
-    "lerna": "4.0.0"
-  },
   "publishConfig": {
     "access": "public"
   },
+  "prettier": "@vsgt/prettier-config",
+  "eslintConfig": {
+    "extends": "@vsgt/eslint-config"
+  },
   "devDependencies": {
-    "eslint": "7.26.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.23.2",
-    "eslint-plugin-prettier": "3.4.1",
-    "eslint-plugin-react": "7.23.2",
-    "eslint-plugin-react-hooks": "4.2.0",
+    "@vsgt/prettier-config": "1.0.0",
+    "@vsgt/eslint-config": "1.0.1",
+    "eslint": "8.4.0",
+    "lerna": "4.0.0",
     "prettier": "2.5.1"
   },
   "bugs": {
