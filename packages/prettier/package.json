@@ -1,0 +1,30 @@
+{
+    "name": "@vsgt/prettier",
+    "version": "0.0.0",
+    "description": "Prettier configuration presets",
+    "keywords": [
+      "prettier",
+      "config",
+      "vsgt"
+    ],
+    "author": "Valeriy Sagatovskiy <code@vsgt.dev>",
+    "homepage": "https://github.com/NXTaar/vsgt-toolbox#readme",
+    "license": "GPL-3.0-or-later",
+    "main": "index.js",
+    "files": [
+      "index.js"
+    ],
+    "publishConfig": {
+      "access": "public"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NXTaar/vsgt-toolbox.git"
+    },
+    "bugs": {
+      "url": "https://github.com/NXTaar/vsgt-toolbox/issues"
+    },
+    "peerDependencies": {
+        "prettier": "2.5.1"
+    }
+  }
