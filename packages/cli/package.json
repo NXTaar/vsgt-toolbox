@@ -24,6 +24,10 @@
     "dist",
     "dist/.gitignore"
   ],
+  "dependencies": {
+    "@vsgt/eslint-config": "1.0.1",
+    "@vsgt/prettier-config": "1.0.0"
+  },
   "publishConfig": {
     "access": "public"
   },
