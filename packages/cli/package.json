@@ -1,0 +1,37 @@
+{
+  "name": "@vsgt/cli",
+  "version": "0.0.0",
+  "private": false,
+  "description": "CLI for project boilerplate",
+  "keywords": [
+    "cli",
+    "boilerplate",
+    "vsgt"
+  ],
+  "author": "Valeriy Sagatovskiy <code@vsgt.dev>",
+  "homepage": "https://github.com/NXTaar/vsgt-toolbox#readme",
+  "license": "GPL-3.0-or-later",
+  "bin": {
+    "vsgt-cli": "index.js"
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build":"node build.js",
+    "prepublishOnly": "yarn build"
+  },
+  "files": [
+    "index.js",
+    "dist",
+    "dist/.gitignore"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NXTaar/vsgt-toolbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NXTaar/vsgt-toolbox/issues"
+  }
+}
