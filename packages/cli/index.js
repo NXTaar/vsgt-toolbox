@@ -37,12 +37,12 @@ const modifiedPkg = {
 
 async function setup() {
     await Promise.all([
-        fs.copyFile(gitignore, path.resolve(process.cwd(), './.gitignore')),
-        fs.copyFile(eslintignore, path.resolve(process.cwd(), './.eslintignore')),
+        fs.copyFile(gitignore, `${process.cwd()}/.gitignore`),
+        fs.copyFile(eslintignore, `${process.cwd()}/.eslintignore`),
         fs.writeFile(targetPkgPath, JSON.stringify(modifiedPkg, null, 4), { encoding: 'utf8', flag: 'w' }),
     ]);
 
-    console.log('Success!');
+    console.log('Linters config files successfully added!');
 }
 
 setup();
