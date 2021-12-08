@@ -9,7 +9,7 @@
 		"type": "git",
 		"url": "git+https://github.com/NXTaar/vsgt-toolbox.git"
 	},
-	"private": false,
+	"private": true,
 	"publishConfig": {
 		"access": "public"
 	},
@@ -17,6 +17,9 @@
 	"eslintConfig": {
 		"extends": "@vsgt/eslint-config"
 	},
+	"workspaces": [
+		"packages/*"
+	],
 	"devDependencies": {
 		"@vsgt/prettier-config": "1.0.0",
 		"@vsgt/eslint-config": "1.0.1",
