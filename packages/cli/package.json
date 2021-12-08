@@ -1,6 +1,6 @@
 {
 	"name": "@vsgt/cli",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"private": false,
 	"description": "CLI for project boilerplate",
 	"keywords": [
@@ -25,8 +25,8 @@
 		"dist/.gitignore"
 	],
 	"dependencies": {
-		"@vsgt/eslint-config": "1.0.1",
-		"@vsgt/prettier-config": "1.0.0"
+		"@vsgt/eslint-config": "^1.0.2",
+		"@vsgt/prettier-config": "^1.0.1"
 	},
 	"publishConfig": {
 		"access": "public"
