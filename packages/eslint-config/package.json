@@ -1,38 +1,38 @@
 {
-  "name": "@vsgt/eslint-config",
-  "version": "1.0.1",
-  "private": false,
-  "description": "Eslint configuration presets",
-  "keywords": [
-    "eslint",
-    "config",
-    "vsgt"
-  ],
-  "author": "Valeriy Sagatovskiy <code@vsgt.dev>",
-  "homepage": "https://github.com/NXTaar/vsgt-toolbox#readme",
-  "license": "GPL-3.0-or-later",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NXTaar/vsgt-toolbox.git"
-  },
-  "bugs": {
-    "url": "https://github.com/NXTaar/vsgt-toolbox/issues"
-  },
-  "peerDependencies": {
-    "eslint": "^8.4.0"
-  },
-  "dependencies": {
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.25.3",
-    "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-react": "7.27.1",
-    "eslint-plugin-react-hooks": "4.3.0"
-  }
+	"name": "@vsgt/eslint-config",
+	"version": "1.0.1",
+	"private": false,
+	"description": "Eslint configuration presets",
+	"keywords": [
+		"eslint",
+		"config",
+		"vsgt"
+	],
+	"author": "Valeriy Sagatovskiy <code@vsgt.dev>",
+	"homepage": "https://github.com/NXTaar/vsgt-toolbox#readme",
+	"license": "GPL-3.0-or-later",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NXTaar/vsgt-toolbox.git"
+	},
+	"bugs": {
+		"url": "https://github.com/NXTaar/vsgt-toolbox/issues"
+	},
+	"peerDependencies": {
+		"eslint": "^8.4.0"
+	},
+	"dependencies": {
+		"eslint-config-prettier": "8.3.0",
+		"eslint-plugin-import": "2.25.3",
+		"eslint-plugin-prettier": "4.0.0",
+		"eslint-plugin-react": "7.27.1",
+		"eslint-plugin-react-hooks": "4.3.0"
+	}
 }
