@@ -1,0 +1,34 @@
+{
+    "name": "@vsgt/tools",
+    "version": "0.0.0",
+    "private": false,
+    "description": "Set of React hooks and helper functions",
+    "keywords": [
+        "hook",
+        "react",
+        "utils",
+        "tools",
+        "helpers"
+    ],
+    "author": "Valeriy Sagatovskiy <code@vsgt.dev>",
+    "homepage": "https://github.com/NXTaar/vsgt-toolbox#readme",
+    "license": "GPL-3.0-or-later",
+    "main": "src/index.js",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NXTaar/vsgt-toolbox.git"
+    },
+    "bugs": {
+        "url": "https://github.com/NXTaar/vsgt-toolbox/issues"
+    },
+    "dependencies": {
+        "body-scroll-lock": "3.1.3"
+    },
+    "peerDependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    }
+}
