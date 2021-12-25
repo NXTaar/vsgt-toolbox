@@ -4,7 +4,7 @@ import { browser, createElement } from '../utils/dom';
 
 const defaultContainer = browser ? { current: document.body } : { current: null };
 
-const useDOMRoot = ({ anchor, style, container = defaultContainer }) => {
+export const useDOMRoot = ({ anchor, style, container = defaultContainer }) => {
     const [root, setRoot] = useState(null);
 
     useEffect(() => {
@@ -23,5 +23,3 @@ const useDOMRoot = ({ anchor, style, container = defaultContainer }) => {
 
     return root;
 };
-
-export default useDOMRoot;
