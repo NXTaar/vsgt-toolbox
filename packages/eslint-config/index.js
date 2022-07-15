@@ -7,7 +7,13 @@ module.exports = {
     parserOptions: {
         sourceType: 'module',
     },
-    extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:prettier/recommended'],
+    extends: [
+        'eslint:recommended',
+        'plugin:react/recommended',
+        'plugin:prettier/recommended',
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended',
+    ],
     plugins: ['react-hooks', 'import'],
     rules: {
         'react/display-name': 'off',
