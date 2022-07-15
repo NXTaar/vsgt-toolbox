@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/NXTaar/vsgt-toolbox/compare/@vsgt/eslint-config@1.1.0...@vsgt/eslint-config@1.1.1) (2022-07-15)
+
+
+### Bug Fixes
+
+* **eslint:** added missing dependency ([f8ad089](https://github.com/NXTaar/vsgt-toolbox/commit/f8ad089bfeef51b0321c79dfd1ad41421efa656e))
+
+
+
+
+
 # [1.1.0](https://github.com/NXTaar/vsgt-toolbox/compare/@vsgt/eslint-config@1.0.2...@vsgt/eslint-config@1.1.0) (2022-07-15)
 
 
